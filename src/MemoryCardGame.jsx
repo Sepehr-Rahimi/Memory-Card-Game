@@ -13,6 +13,7 @@ const MemoryCardGame = ({mainInput}) => {
             setTimeout(() => {
                     setData(newData)
                 },4000)
+                // eslint-disable-next-line
             },[doReset])
 
 
@@ -35,6 +36,7 @@ const MemoryCardGame = ({mainInput}) => {
                 }
             }
         }
+        // eslint-disable-next-line
     },[secondChoice,firstChoice])
 
 
